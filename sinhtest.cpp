@@ -1,3 +1,7 @@
+/*khanghaicode da loiihunter*/
+/*--------------------------*/
+/*ai doc duoc la gay*/
+/*khong code thi thoi t la mot con cho*/
 #include<bits/stdc++.h>
 using namespace std;
 const int tests=100;
