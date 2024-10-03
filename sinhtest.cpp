@@ -1,10 +1,21 @@
 /*khanghaicode da loiihunter*/
 /*--------------------------*/
-/*ai doc duoc la gay*/
+/*Ai doc cai nay la gay*/
+/*Whoever reads this is gay*/
+/*Celui qui lit ceci est gay*/
+/*Тот, кто это читает тот гей*/
+/*これを読んだ人はゲイです*/
+/*Wer das liest, ist schwul*/
+/*读到此文的人都是同性恋*/
+/*ใครอ่านเป็นเกย์*/
+/*Den som läser detta är gay*/
+/*이 글을 읽는 사람은 게이입니다*/
+/*من يقرأ هذا فهو مثلي الجنس*/
 /*khong code thi thoi t la mot con cho*/
+/*chim trong man dem nazuna cuu lay toi*/
 #include<bits/stdc++.h>
 using namespace std;
-const int tests=100;
+const int TESTS=100;
 long long randum(long long l,long long r){
     return rand()%(r-l+1) +l;
 }
@@ -15,7 +26,7 @@ void sinhinp(){
 }
 int main(){
     srand(time(0));
-    for(int  test=1;test<=tests;test++){
+    for(int  test=1;test<=TESTS;test++){
         sinhinp();
         system("hai.exe");
         system("trau.exe");
