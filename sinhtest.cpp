@@ -14,7 +14,7 @@ long long randum(long long l,long long r){
 }
 void sinhinp(){
     ofstream inp("input.inp");
-
+    
     inp.close();
 }
 int main(){
