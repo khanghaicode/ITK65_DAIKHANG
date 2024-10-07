@@ -16,8 +16,10 @@ void init(){
 }
 int main(){
     ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
-    freopen("input.inp","r",stdin);
-    freopen("output.out","w",stdout);
+    if(fopen("input.inp","r")){
+        freopen("input.inp","r",stdin);
+        freopen("output.out","w",stdout);
+    }
     // clock_t begin=clock();
     init();
     process();   
