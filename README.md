@@ -22,10 +22,10 @@ int main(){
     ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
     freopen("urbrain.inp","r",stdin);
     freopen("momdaikhang.out","w",stdout);
-    // clock_t begin=clock();
+    clock_t begin=clock();
     init();
     process();   
-    // cerr<<"\n"<<(float)(clock()-begin)/CLOCKS_PER_SEC<<"s";
+    cerr<<"\n"<<(float)(clock()-begin)/CLOCKS_PER_SEC<<"s";
 }
 
 ```
