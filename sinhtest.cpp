@@ -25,7 +25,7 @@ int main(){
         system("trau.exe");
         if(system("fc ans.out output.out")){
             cout<<"Do ngu do an hai Huyen Anh that vong\n";
-            system("pause");
+            system("pause");    
             return 0;
         }
         else cout<<"Test "<<test<<": Dung roi gioi qua Huyen Anh tu hao\n";
