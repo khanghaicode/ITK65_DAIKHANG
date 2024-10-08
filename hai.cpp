@@ -43,8 +43,8 @@ int main(){
         freopen("input.inp","r",stdin);
         freopen("output.out","w",stdout);
     }
-    // clock_t begin=clock();
+    clock_t begin=clock();
     init();
     process();   
-    // cerr<<"\n"<<(float)(clock()-begin)/CLOCKS_PER_SEC<<"s";
+    cerr<<"\n"<<(float)(clock()-begin)/CLOCKS_PER_SEC<<"s";
 }
