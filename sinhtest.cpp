@@ -34,7 +34,7 @@ using namespace std;
 const int TESTS=1000;
 long long randum(long long l,long long r){return rand()%(r-l+1) +l;}
 void sinhinp(){
-    ofstream inp("input.inp");
+    ofstream inp("haicode.inp");
     
     inp.close();
 }
