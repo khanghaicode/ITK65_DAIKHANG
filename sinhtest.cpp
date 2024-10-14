@@ -31,18 +31,11 @@
 // ⠀⠀⠀⠀⠀⠈⢻⣿⣿⡟⣿⣯⣼⠟⠋⠻⢿⣿⣿⣇⠀⠀⠀⡰⢠⣿⣿⣿⣿⣿⠀⢳⣀⣀⢿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠙⣿⣿⣿⣿
 #include<bits/stdc++.h>
 using namespace std;
-const int TESTS=100;
-long long randum(long long l,long long r){
-    return rand()%(r-l+1) +l;
-}
+const int TESTS=1000;
+long long randum(long long l,long long r){return rand()%(r-l+1) +l;}
 void sinhinp(){
     ofstream inp("input.inp");
-    int n=randum(2,100000),m=randum(1,1000000),a=randum(0,3),b=randum(0,3);
-    inp<<n<<" "<<m<<" "<<a<<" "<<b<<"\n";
-    while(m--){
-        int u=randum(1,n-1);
-        inp<<u<<" "<<randum(u,n)<<" "<<randum(1,10)<<"\n";
-    }
+    
     inp.close();
 }
 int main(){
@@ -51,13 +44,13 @@ int main(){
         sinhinp();
         system("hai.exe");
         system("trau.exe");
-        if(system("fc ans.out output.out")){
+        if(system("fc haicode.ans haicode.out")){
             cout<<"Do ngu do an hai Huyen Anh that vong\n";
             system("pause");    
             return 0;
         }
         else cout<<"Test "<<test<<": Dung roi gioi qua Huyen Anh tu hao\n";
     }
-    cout<<"Troi oi dung het roi, pitien rat tu hao :>>";
+    cout<<"Troi oi dung het roi, pitien rat tu hao :>>\n nay chang trai cho du pi tien tu hao cung dung quen Nazuna Nanakusa<3";
     system("pause");
 }
