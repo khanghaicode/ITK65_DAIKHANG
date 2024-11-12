@@ -32,7 +32,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 void process(){
-
+    
 }
 void init(){
     
