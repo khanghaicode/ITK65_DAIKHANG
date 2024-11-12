@@ -46,11 +46,11 @@ int main(){
         system("trau.exe");
         if(system("fc haicode.ans haicode.out")){
             cout<<"Do ngu do an hai Huyen Anh that vong\n";
-            system("pause");    
+            // system("pause");    
             return 0;
         }
         else cout<<"Test "<<test<<": Dung roi gioi qua Huyen Anh tu hao\n";
     }
     cout<<"Troi oi dung het roi, pitien rat tu hao :>>\n nay chang trai cho du pi tien tu hao cung dung quen Nazuna Nanakusa<3";
-    system("pause");
+    // system("pause");
 }
