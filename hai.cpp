@@ -29,7 +29,7 @@
 // ⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣷⣾⣿⣿⣿⣿⣿⣿⡆⠀⠀⠀⠹⠀⠸⣿⣿⣿⣷⡀⠸⢰⠁⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 // ⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿⡀⠀⠀⠀⠀⢰⣿⣿⣿⣿⡟⠇⠈⠀⠀⢸⣿⣿⣿⡿⠛⠉⠉⠙⠻⣿⣿⣿⣿⣿⣿
 // ⠀⠀⠀⠀⠀⠈⢻⣿⣿⡟⣿⣯⣼⠟⠋⠻⢿⣿⣿⣇⠀⠀⠀⡰⢠⣿⣿⣿⣿⣿⠀⢳⣀⣀⢿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠙⣿⣿⣿⣿
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 void process(){
     
@@ -39,12 +39,13 @@ void init(){
 }
 int main(){
     ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
-    if(fopen("haicode.inp","r")){
-        freopen("haicode.inp","r",stdin);
-        freopen("haicode.out","w",stdout);
+    #define NAME "haicode"
+    if(fopen(NAME".inp","r")){
+        freopen(NAME".inp","r",stdin);
+        freopen(NAME".output","w",stdout);
     }
     clock_t begin=clock();
     init();
-    process();   
+    process();
     cerr<<"\n"<<(float)(clock()-begin)/CLOCKS_PER_SEC<<"s";
 }
