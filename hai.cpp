@@ -42,7 +42,7 @@ int main(){
     #define NAME "haicode"
     if(fopen(NAME".inp","r")){
         freopen(NAME".inp","r",stdin);
-        freopen(NAME".output","w",stdout);
+        freopen(NAME".out","w",stdout);
     }
     clock_t begin=clock();
     init();
