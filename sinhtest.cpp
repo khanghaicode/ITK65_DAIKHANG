@@ -33,17 +33,19 @@
 using namespace std;
 const int TESTS=113;
 long long randum(long long l,long long r){return rand()%(r-l+1) +l;}
+#define NAME "haicode"
+ofstream inp;
 void sinhinp(){
-    ofstream inp("haicode.inp");
     
-    inp.close();
 }
 int main(){
     srand(time(0));
     for(int  test=1;test<=TESTS;test++){
+        inp.open(NAME".inp");
         sinhinp();
-        system("hai.exe");
-        system("trau.exe");
+        inp.close();
+        system(NAME".exe");
+        system(NAME"brf.exe");
         if(system("fc haicode.ans haicode.out")){
             cout<<"Do ngu do an hai Huyen Anh that vong\n";
             // system("pause");    
