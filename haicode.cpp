@@ -38,7 +38,7 @@ void init(){
     
 }
 int main(){
-    ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+    ios_base::sync_with_stdio(0);cin.tie(0);
     #define NAME "haicode"
     if(fopen(NAME".inp","r")){
         freopen(NAME".inp","r",stdin);

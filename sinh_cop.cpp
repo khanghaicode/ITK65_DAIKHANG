@@ -18,7 +18,7 @@
 // ⠀⠀⠀⠀⠀⢠⡞⠉⢹⣸⠇⠀⣿⡄⣇⢻⣿⡳⢈⣸⣶⣖⣆⠀⠀⠀⠀⠀⠈⠚⠉⠉⠉⠙⢻⣿⡷⠀⠀⠀⢻⣷⢈⡿⠦⣤⡟
 // ⠀⠀⠀⠀⠀⢈⣿⣤⣤⡿⠀⠀⠙⢻⣟⠛⣥⣾⠟⠋⠁⠀⠀⠀⠀⡖⠀⠀⠀⠀⠀⠀⠂⣿⡾⠁⠀⣀⠀⠀⢸⣿⠸⣧⠐⠁⢸
 // ⠀⠀⠀⠀⠀⣿⡀⠙⣿⡇⠀⠀⠀⠸⣿⣷⠛⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣼⠟⠁⣀⡤⡿⠀⠀⣼⠻⠏⠉⡃⠴⣇
-// ⠀⠀⠀⠀⠀⣽⠿⣿⣿⠁⢀⣤⡄⠀⢻⣿⣶⡏⠀ ⠀⠀⢀⣀⣤⣤⣶⠶⠿⣛⣿⣟⣯⣶⣿⣿⣿⠃⠀⣰⡿⢛⡷⠀⠃⢀⣿
+// ⠀⠀⠀⠀⠀⣽⠿⣿⣿⠁⢀⣤⡄⠀⢻⣿⣶⡏⠀⠇⠀⠀⢀⣀⣤⣤⣶⠶⠿⣛⣿⣟⣯⣶⣿⣿⣿⠃⠀⣰⡿⢛⡷⠀⠃⢀⣿
 // ⠀⠀⠀⠀⠀⢿⣶⣼⣿⢀⣾⣧⠀⠀⡰⣿⣿⡁⠀⠀⠀⣼⣿⣿⠏⠁⠀⠀⠀⠙⠉⠉⠉⣹⣿⢟⡟⢠⡾⢫⣴⡿⣷⣦⣴⠏⠁
 // ⠀⠀⠀⠀⢰⣟⣀⣻⣿⣿⣷⣿⣦⣠⣿⣿⡽⣿⣄⠀⠀⢹⣿⡃⠀⠀⠀⠀⠀⠀⠀⣀⣴⣯⣀⣾⣷⡟⣱⣟⣼⣷⣶⡸⢿⣀⣠⣤⣴⣶
 // ⠀⠀⠀⠀⠈⣿⠛⢻⣿⣿⠽⠿⠈⣻⡟⣿⣿⣿⡻⣿⣤⣀⠙⠿⣤⣤⡄⠀⠀⠤⠘⠙⣿⣿⣿⣿⠟⢠⣿⠟⢁⣠⣯⣿⣿⣿⣿⣿⣿⣿
@@ -26,26 +26,33 @@
 // ⠀⠀⠀⠀⠀⠀⢻⣆⣨⡿⣃⣩⣿⣦⣌⡉⠻⢏⠁⠀⠀⣻⠀⠸⣿⣿⣿⣷⡾⠛⣿⠋⠀⠀⠀⠈⠇⣴⠉⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 // ⠀⠀⠀⠀⠀⠀⠀⣻⣿⣿⣿⣿⣿⣿⣿⣿⣦⣼⠇⢷⣄⠇⡄⠀⣿⣿⣿⣿⡇⠞⠀⡄⠀⠾⠆⠀⠀⣿⣠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 // ⠀⠀⠀⠀⠀⢠⣶⣿⣿⣿⡿⠿⠻⣿⣽⣷⣿⣆⠀⠀⠙⠷⣅⠀⢿⣿⣿⣿⡅⠀⠀⡟⡜⠀⠀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
-// ⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣷⣾⣿⣿⣿⣿⣿⣿⡆⠀⠀⠀⠹⠀⠸⣿⣿⣿⣷⡀⠸⢰⠁⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+// ⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣷⣾⣿⣿⣿⣿⣿⣿⡆⠀⠀⠀⠹⠀⠸⣿⣿⣿⣷⡀⠸⢰⠁⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   
 // ⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿⡀⠀⠀⠀⠀⢰⣿⣿⣿⣿⡟⠇⠈⠀⠀⢸⣿⣿⣿⡿⠛⠉⠉⠙⠻⣿⣿⣿⣿⣿⣿
 // ⠀⠀⠀⠀⠀⠈⢻⣿⣿⡟⣿⣯⣼⠟⠋⠻⢿⣿⣿⣇⠀⠀⠀⡰⢠⣿⣿⣿⣿⣿⠀⢳⣀⣀⢿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠙⣿⣿⣿⣿
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
-void process(){
-    
-}
-void init(){
+const int TESTS=113;
+long long randum(long long l,long long r){return rand()%(r-l+1) +l;}
+#define NAME "haicode"
+ofstream inp;
+void sinhinp(){
     
 }
 int main(){
-    ios_base::sync_with_stdio(0);cin.tie(0);
-    #define NAME "haicode"
-    if(fopen(NAME".inp","r")){
-        freopen(NAME".inp","r",stdin);
-        freopen(NAME".ans","w",stdout);
+    srand(time(0));
+    for(int test=1;test<=TESTS;test++){
+        inp.open(NAME".inp");
+        sinhinp();
+        inp.close();
+        system(NAME".exe");
+        system(NAME"brf.exe");
+        if(system("fc haicode.ans haicode.out")){
+            cout<<"Do ngu do an hai Huyen Anh that vong\n";
+            // system("pause");    
+            return 0;
+        }
+        else cout<<"Test "<<test<<": Dung roi gioi qua Huyen Anh tu hao\n";
     }
-    clock_t begin=clock();
-    init();
-    process();
-    cerr<<"\n"<<(float)(clock()-begin)/CLOCKS_PER_SEC<<"s";
+    cout<<"Troi oi dung het roi, pitien rat tu hao :>>\n nay chang trai cho du pi tien tu hao cung dung quen Nazuna Nanakusa<3";
+    // system("pause");
 }

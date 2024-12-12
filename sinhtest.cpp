@@ -40,7 +40,7 @@ void sinhinp(){
 }
 int main(){
     srand(time(0));
-    for(int  test=1;test<=TESTS;test++){
+    for(int test=1;test<=TESTS;test++){
         inp.open(NAME".inp");
         sinhinp();
         inp.close();
