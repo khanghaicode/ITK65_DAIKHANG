@@ -5,6 +5,7 @@
 /*Celui qui lit ceci est gay*/
 /*Wer das liest, ist schwul*/
 /*khong code thi thoi t la mot con cho*/
+/*Not gay, but femboy is good*/
 /*chim trong man dem nazuna cuu lay toi*/
 // ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣀⠀⣤⣤⣤⣤⣤⣤⣄⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀
 // ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣶⠿⠟⠉⠉⠀⠉⠁⠘⢉⣉⣛⠛⣿⠻⠷⣶⣄⡀⠀⠀⠀⢀⣴⣿⣶⣶⡾⣿⡿⠟
@@ -36,7 +37,7 @@ long long randum(long long l,long long r){return rand()%(r-l+1) +l;}
 #define NAME "haicode"
 ofstream inp;
 void sinhinp(){
-    
+
 }
 int main(){
     srand(time(0));
